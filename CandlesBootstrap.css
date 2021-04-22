@@ -1,0 +1,114 @@
+.banner {
+	background-image:url('CrescentCitySunset.png'); 
+	text-align: center;
+	position: center;
+    background-size: cover;
+    background-position:  center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    bottom: 0;
+	left: 0;
+	z-index: 100;
+    margin: 0 auto;
+}
+
+.img-fluid {
+	position: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.jumbotron {
+	padding: 20%;
+	margin-top: -40px;
+	background-attachment: fixed;
+	background-position:  center -238px;
+}
+
+.jumbotron h1 {
+	position: absolute;
+	top:18;
+	left:0;
+	padding-left: 20px;
+	color: #F7FAFE;
+}
+
+.mission {
+	background-color: #eebdc0;
+	color: #F7FAFE;
+	margin-top: -30px;
+    text-align: center;
+    position: center;
+}
+
+.mission h3 {
+	font-family:'Raleway' 'sans-serif';
+	padding: 5% 10% ;
+	text-align: center;
+	position: center;
+
+}
+
+.order-button {
+  margin: auto;
+  width: 25%;
+  padding: 10px;
+
+}
+
+
+.features {
+	padding: 2% 0;
+}
+
+.features p {
+	font-family: 'Muli' 'sans-serif';
+	text-align: center;
+	color:#323232;
+	font-size: 1.2em;
+	padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+
+footer {
+	background-color: #eebdc0;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	
+}
+
+footer p {
+	float: left;
+}
+
+footer a,
+footer p {
+
+	color:#fff;
+	vertical-align: middle;
+
+}
+
+
+/********************
+MEDIA QUERIES
+********************/
+@media screen and (max-width: 776px) {
+	.features img {
+		max-width: 90%;
+		margin: auto;
+	}
